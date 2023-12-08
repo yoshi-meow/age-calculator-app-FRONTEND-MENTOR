@@ -72,7 +72,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Desktop styles (992 pixels and above) */
-@media only screen and (min-width: 992px) and (max-width: 1800px) {
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
   .card {
     /* Additional tablet styles go here */
     width: auto;
@@ -87,6 +87,32 @@ input::-webkit-inner-spin-button {
   .resultGroup {
     margin-top: 10%;
     padding-bottom: 5%;
+  }
+}
+
+/* Desktop styles (1025 pixels and above) */
+@media only screen and (min-width: 1025px) and (max-width: 1500px) {
+  .card {
+    width: 58%;
+    padding-top: 3em;
+  }
+  .formGroup{
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    margin-right: 1.5em;
+  }
+  .resultGroup {
+    margin-top: 3.5em;
+  }
+  .divSubmit {
+    top: 30%;
+    left: 68%;
+  }
+  .errorM {
+    font-size: 60%;
+  }
+  .footer {
+    font-size: 60%;
   }
 }
 
