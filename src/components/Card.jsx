@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import myButton from '../assets/images/icon-arrow.svg';
 
 const Card = () => {
   const [day, setDay] = useState("");
@@ -183,7 +184,7 @@ const Card = () => {
               {" "}
               <img
                 className="imgSubmit"
-                src="../assets/images/icon-arrow.svg"
+                src={myButton}
                 alt="submit"
               />{" "}
             </button>
