@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Mobile styles (up to 767 pixels) */
+@media only screen and (max-width: 767px) {
+  .card {
+    width: auto;
+    border-bottom-right-radius: 8em;
+    padding: 2em;
+    padding-top: 3em;
+  }
+  .form-input {
+    height: 20%;
+    padding: 0.8em;
+    font-size: 1.3em;
+  }
+  .formGroup{
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    margin-right: 1.5em;
+  }
+  .arrowSubmit {
+    padding: 1.2em;
+  }
+  .imgSubmit {
+    width: 2em;
+  }
+  .divSubmit {
+    top: 40%;
+    left: 42%;
+  }
+  .result {
+    font-size: 3.5em !important;
+  }
+  .resultGroup {
+    margin-top: 3.5em;
+  }
+  .errorM {
+    font-size: 60%;
+  }
+  .footer {
+    font-size: 60%;
+  }
+}
+
+/* Tablet and small desktop styles (768 to 991 pixels) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card {
+    /* Additional tablet styles go here */
+    width: auto;
+  }
+  .formGroup{
+    margin-bottom: 10%;
+  }
+  .divSubmit {
+    top: 35%; 
+    left: 45%; 
+  }
+  .resultGroup {
+    margin-top: 10%;
+    padding-bottom: 5%;
+  }
+}
+
+/* Desktop styles (992 pixels and above) */
+@media only screen and (min-width: 992px) and (max-width: 1800px) {
+  .card {
+    /* Additional tablet styles go here */
+    width: auto;
+  }
+  .formGroup{
+    margin-bottom: 10%;
+  }
+  .divSubmit {
+    top: 35%; 
+    left: 45%; 
+  }
+  .resultGroup {
+    margin-top: 10%;
+    padding-bottom: 5%;
+  }
+}
+
+
+
+
+
+
