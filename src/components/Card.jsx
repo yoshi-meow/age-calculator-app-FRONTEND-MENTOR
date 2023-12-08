@@ -183,7 +183,7 @@ const Card = () => {
               {" "}
               <img
                 className="imgSubmit"
-                src="/src/assets/images/icon-arrow.svg"
+                src="../assets/images/icon-arrow.svg"
                 alt="submit"
               />{" "}
             </button>
